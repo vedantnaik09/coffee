@@ -3,3 +3,12 @@ font-size: 55px;
     font-family: monospace;
     color: #9d633a;
 }
+a:hover{
+    color: #bb7952;
+}
+a{
+    color: #ffe1b9;
+}
+.cofcard{
+    display: inline-block;
+}
