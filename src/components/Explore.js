@@ -36,11 +36,12 @@ export default function Explore() {
         discount=0
         else if(5<=total_items<=10)
         discount=10
-        else
+        if(total_items>10)
         discount=20
         return {
         discount: discount,
-        price: total_items*10-total_items*discount/10
+        price: total_items*10-total_items*discount/10,
+        items : total_items
         }
     }
     function clearItems(){
