@@ -17,20 +17,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 </ParallaxLayer> */
 
 function App() {
-  
-
-
-
-
   return (
     <div> 
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
-        <Route path="/explore" element={<Explore/>}/>
-
-        
+        <Route path="/explore" element={<Explore/>}/>      
       </Routes>
     </BrowserRouter>  
     </div>
